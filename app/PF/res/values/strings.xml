@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobile UJI Place Finder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="image_error">The image is missing</string>
+    <string name="activity_title_title">UJI Place Finder</string>
+    <string name="touch_text">Touch the screen to continue</string>
+    <string name="SendButton">Send</string>
+    <string name="RadioName">Name</string>
+    <string name="RadioTlf">Telephone</string>
+    <string name="RadioTitle">Title</string>
+    <string name="RadioMail">Mail</string>
+    <string name="PlaceButton">Place</string>
+    <string name="PeopleButton">People</string>
+    <string name="FacilitiesButton">Facilities</string>
+    <string name="RadioRoom">Room number</string>
+    <string name="TextQuantity">Quant.</string>
+    <string name="EquipmentText">Equipment</string>
+    <string name="SizeText">Square meters</string>
+    <string name="SearchPeopleTitle">People</string>
+    <string name="SearchFacilitiesTitle">Search Facilities</string>
+    <string name="SearchPlaceTitle">Search Place</string>
+    <string name="menu_building">Choose Building</string>
+    <string name="SearchTitle">Choose an option to search</string>
+    <string name="NavigateButton">Navigate</string>
+    <string name="noOffice">This person don\'t have office at UJI</string>
+    <string name="favorites">Favorites</string>
+    <string name="results">Results</string>
+    <string name="comingSoon">Coming soon...</string>
+    
+    <string name="button_ViewOnTheMap_part1">View the </string>
+    <string name="button_ViewOnTheMap_part2offices"> offices on the map</string>
+    <string name="button_ViewOnTheMap_part2persons"> persons on the map</string>
+    <string name="button_FavoritesAddDel_part1">Room </string>
+    <string name="button_FavoritesAddDel_part1actualized">Actualized the room </string>
+    <string name="button_FavoritesAddDel_part2added"> added to Favorites</string>
+    <string name="button_FavoritesAddDel_part2actualized"> in Favorites</string>
+    <string name="button_FavoritesAddDel_part2deleted"> deleted from Favorites</string>
+   
+
+</resources>

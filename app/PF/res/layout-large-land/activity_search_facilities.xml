@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SearchLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TitleActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageButton
+            android:id="@+id/FavoritesButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/trans"
+            android:src="@drawable/buttonstar_med" />
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.34" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/activity_title_title"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="30dp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/CompassImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="@string/image_error"
+            android:src="@drawable/compass_med" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.31" >
+
+            <TextView
+                android:id="@+id/SizeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/SizeInput"
+                android:layout_marginLeft="14dp"
+                android:layout_toRightOf="@+id/SizeInput"
+                android:text="@string/SizeText"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/SendButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="102dp"
+                android:text="@string/SendButton"
+                android:textSize="36dp" />
+
+            <EditText
+                android:id="@+id/EquipmentInput"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/EquipmentText"
+                android:layout_alignBottom="@+id/EquipmentText"
+                android:layout_alignRight="@+id/SizeText"
+                android:layout_marginLeft="35dp"
+                android:layout_toRightOf="@+id/EquipmentText"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/QuantInput"
+                android:layout_width="36dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/EquipmentInput"
+                android:layout_alignBottom="@+id/EquipmentInput"
+                android:layout_toRightOf="@+id/QuantText"
+                android:ems="10"
+                android:inputType="number" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/EquipmentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/SizeInput"
+                android:layout_below="@+id/SizeInput"
+                android:layout_marginTop="36dp"
+                android:text="@string/EquipmentText"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/QuantText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/QuantInput"
+                android:layout_toRightOf="@+id/EquipmentInput"
+                android:text="@string/TextQuantity"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/SizeInput"
+                android:layout_width="36dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/SearchTitle"
+                android:layout_marginTop="118dp"
+                android:layout_toLeftOf="@+id/SearchTitle"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/SearchTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="41dp"
+                android:text="@string/SearchFacilitiesTitle"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="40dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

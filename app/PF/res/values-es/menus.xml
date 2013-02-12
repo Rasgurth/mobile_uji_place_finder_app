@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="people_search">
+        <item>Nombre</item>
+        <item>Teléfono</item>
+        <item>Título</item>
+        <item>Correo</item>
+    </string-array>
+    
+    <string-array name="place_search">
+        <item>Numero de habitación</item>
+    </string-array>
+    
+    <string-array name="buildings">
+        <item>Selecciona uno</item>
+        <item>TC</item>
+        <item>TD</item>
+        <item>TI</item>
+        <item>UB</item>
+        <item>CD</item>
+        <item>RR</item>
+    </string-array>
+
+</resources>

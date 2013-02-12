@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobile UJI Place Finder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Configuració</string>
+    <string name="image_error">La imatge no es pot carregar</string>
+    <string name="activity_title_title">UJI Place Finder</string>
+    <string name="touch_text">Toca la pantalla per continuar</string>
+    <string name="SendButton">Enviar</string>
+    <string name="RadioName">Nom</string>
+    <string name="RadioTlf">Telèfon</string>
+    <string name="RadioTitle">Títol</string>
+    <string name="RadioMail">Correu</string>
+    <string name="PlaceButton">Lloc</string>
+    <string name="PeopleButton">Persona</string>
+    <string name="FacilitiesButton">Instalacions</string>
+    <string name="RadioRoom">Nombre de habitació</string>
+    <string name="TextQuantity">Quant.</string>
+    <string name="EquipmentText">Equip</string>
+    <string name="SizeText">Metres quadrats</string>
+    <string name="SearchPeopleTitle">Cerca persones</string>
+    <string name="SearchFacilitiesTitle">Cerca instalacions</string>
+    <string name="SearchPlaceTitle">Cerca llocs</string>
+    <string name="menu_building">Tria edifici</string>
+    <string name="SearchTitle">Tria una opció per a cercar</string>
+    <string name="NavigateButton">Navega</string>
+    <string name="noOffice">Aquesta persona no té una oficina a l\'UJI</string>
+    <string name="favorites">Favorits</string>
+    <string name="results">Resultats</string>
+    <string name="comingSoon">Próximament...</string>
+    
+    <string name="button_ViewOnTheMap_part1">Vore </string>
+    <string name="button_ViewOnTheMap_part2offices"> oficines en el mapa</string>
+    <string name="button_ViewOnTheMap_part2persons"> persones en el mapa</string>
+    <string name="button_FavoritesAddDel_part1">Habitació </string>
+    <string name="button_FavoritesAddDel_part1actualized">Actualitzada la habitació </string>
+    <string name="button_FavoritesAddDel_part2added"> afegida a Favorits</string>
+    <string name="button_FavoritesAddDel_part2actualized"> en Favorits</string>
+    <string name="button_FavoritesAddDel_part2deleted"> suprimit de Favorites</string>
+   
+
+</resources>

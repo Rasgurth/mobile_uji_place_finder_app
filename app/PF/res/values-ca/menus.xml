@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="people_search">
+        <item>Nom</item>
+        <item>Telèfon</item>
+        <item>Títol</item>
+        <item>Correu</item>
+    </string-array>
+    
+    <string-array name="place_search">
+        <item>Nombre de habitació</item>
+    </string-array>
+    
+    <string-array name="buildings">
+        <item>selecciona un</item>
+        <item>TC</item>
+        <item>TD</item>
+        <item>TI</item>
+        <item>UB</item>
+        <item>CD</item>
+        <item>RR</item>
+    </string-array>
+</resources>

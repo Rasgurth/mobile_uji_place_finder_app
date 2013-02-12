@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobile UJI Place Finder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="image_error">La imagen no se puede cargar</string>
+    <string name="activity_title_title">UJI Place Finder</string>
+    <string name="touch_text">Toca la pantalla para continuar</string>
+    <string name="SendButton">Enviar</string>
+    <string name="RadioName">Nombre</string>
+    <string name="RadioTlf">Teléfono</string>
+    <string name="RadioTitle">Título</string>
+    <string name="RadioMail">Correo</string>
+    <string name="PlaceButton">Lugar</string>
+    <string name="PeopleButton">Persona</string>
+    <string name="FacilitiesButton">Instalaciones</string>
+    <string name="RadioRoom">Numero de habitación</string>
+    <string name="TextQuantity">Cant.</string>
+    <string name="EquipmentText">Equipo</string>
+    <string name="SizeText">Metros cuadrados</string>
+    <string name="SearchPeopleTitle">Busca personas</string>
+    <string name="SearchFacilitiesTitle">Busca instalaciones</string>
+    <string name="SearchPlaceTitle">Busca lugares</string>
+    <string name="menu_building">Elige edificio</string>
+    <string name="SearchTitle">Elige una opción para buscar</string>
+    <string name="NavigateButton">Navegar</string>
+    <string name="noOffice">Esta persona no tiene una oficina en la UJI</string>
+    <string name="favorites">Favoritos</string>
+    <string name="results">Resultados</string>
+    <string name="comingSoon">Próximamente...</string>
+    
+    <string name="button_ViewOnTheMap_part1">Ver </string>
+    <string name="button_ViewOnTheMap_part2offices"> oficinas en el mapa</string>
+    <string name="button_ViewOnTheMap_part2persons"> personas en el mapa</string>
+    <string name="button_FavoritesAddDel_part1">Habitación </string>
+    <string name="button_FavoritesAddDel_part1actualized">Actualizada la habitación </string>
+    <string name="button_FavoritesAddDel_part2added"> añadida a Favoritos</string>
+    <string name="button_FavoritesAddDel_part2actualized"> en Favoritos</string>
+    <string name="button_FavoritesAddDel_part2deleted"> suprimido de Favoritos</string>
+
+</resources>

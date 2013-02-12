@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SearchLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TitleActivity" >
+
+    <FrameLayout
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+
+        <com.esri.android.map.MapView
+            android:id="@+id/map"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </com.esri.android.map.MapView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="76dp" >
+
+            <ImageButton
+                android:id="@+id/PositionButton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/trans"
+                android:src="@drawable/button_myloc_med" />
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.34" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/NavigateButton"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/CompassImage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:contentDescription="@string/image_error"
+                android:src="@drawable/compass_med" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom" >
+
+                    <ImageButton
+                        android:id="@+id/FindButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/trans"
+                        android:src="@drawable/buttonfind_med" />
+
+                    <ImageButton
+                        android:id="@+id/FavouritesButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/trans"
+                        android:src="@drawable/buttonstar_med" />
+                </LinearLayout>
+
+                <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <ImageButton
+                            android:id="@+id/UpButton"
+                            android:layout_width="70dp"
+                            android:layout_height="76dp"
+                            android:background="@drawable/trans"
+                            android:src="@drawable/up_med" />
+
+                        <ImageButton
+                            android:id="@+id/DownButton"
+                            android:layout_width="70dp"
+                            android:layout_height="76dp"
+                            android:background="@drawable/trans"
+                            android:src="@drawable/down_med" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/BuildingImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/building5_b_med" />
+
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/BuildingSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+            </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

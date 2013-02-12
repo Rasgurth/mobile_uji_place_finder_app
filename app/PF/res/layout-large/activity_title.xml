@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TitleLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TitleActivity" >
+
+    <ImageView
+        android:id="@+id/TitleUjiLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TitleUjiText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:contentDescription="@string/image_error"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/TitleUjiText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TitleUjiMap"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/activity_title_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="44sp" />
+
+    <ImageView
+        android:id="@+id/TitleUjiMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/image_error"
+        android:src="@drawable/plano_med" />
+
+    <TextView
+        android:id="@+id/TitleTouchText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TitleUjiMap"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="@string/touch_text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="24dp" />
+
+    <ImageButton
+        android:id="@+id/TitleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/image_error"
+        android:background="@drawable/trans" />
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#66CFE6" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/frameLayout2" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="5dip"
+            android:text="@string/comingSoon"
+            android:textColor="#FF000000"
+            android:textSize="12dip" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/frameLayout1" >
+
+        <TextView
+            android:id="@+id/Info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SizeText"
+            android:textColor="#FF000000"
+            android:textSize="10dip" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/frameLayout1"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/fav_button"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:background="@drawable/trans"
+            android:src="@drawable/buttonstart_min" />
+
+        <ImageButton
+            android:id="@+id/InfoButton"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/trans"
+            android:src="@drawable/buttoninfo_min" />
+    </LinearLayout>
+
+</RelativeLayout>

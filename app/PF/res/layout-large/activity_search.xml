@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SearchLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TitleActivity" >
+
+    <TextView
+        android:id="@+id/SearchTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="@string/SearchPlaceTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/SendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/SendButton"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/InputText"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/SendButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:ems="10" />
+
+    <Spinner
+        android:id="@+id/SearchSpinner"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/InputText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp" />
+
+    <Button
+        android:id="@+id/TextResults"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/SendButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp" />
+
+</RelativeLayout>

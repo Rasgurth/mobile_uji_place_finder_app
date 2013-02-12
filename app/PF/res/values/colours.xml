@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="uji_blue">#280092</string>
+    <string name="uji_light_blue">#66CFE6</string>
+    <string name="uji_grey">#939495</string>
+    <string name="white">#ffffff</string>
+    <string name="black">#000000</string>
+    
+   
+
+</resources>
